@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCoffeeSplash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp">
+
+        <ImageView
+            android:id="@+id/imageViewCoffeeSplash"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_coffee"
+            android:contentDescription="@string/coffee_image"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Centralize e defina uma largura específica ou use wrap_content -->
+    <Button
+        android:id="@+id/button_register_coffee"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardViewCoffeeSplash"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/cadastrar_caf"
+        android:onClick="registerCoffee"/>
+
+    <Button
+        android:id="@+id/button_list_coffees"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_register_coffee"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/listar_caf_s"
+        android:onClick="listCoffees"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_list_coffees"
+        android:layout_marginTop="20dp"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/img_coffee2"
+            android:contentDescription="@string/coffee_shop_image"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

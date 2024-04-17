@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAFÉ MANIA</string>
+    <string name="nome_do_caf">Nome do Café</string>
+    <string name="descri_o">Descrição</string>
+    <string name="salvar">Salvar</string>
+    <string name="listar_caf_s">Cafés</string>
+    <string name="cadastrar_caf">Cadastrar Café</string>
+    <string name="delete">Deletar</string>
+    <string name="confirm_delete">Confirmar Exclusão</string>
+    <string name="are_you_sure">Você tem certeza que deseja deletar este café?</string>
+    <string name="delete_success">Café deletado com sucesso!</string>
+    <string name="edit">Editar</string>
+    <string name="share_coffee">Compartilhar</string>
+    <string name="coffee_image">Imagem</string>
+    <string name="coffee_shop_image">Imagem Footer</string>
+</resources>
